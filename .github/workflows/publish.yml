@@ -46,5 +46,7 @@ jobs:
           DEPLOYMENT_BRANCH: gh-pages
           CURRENT_BRANCH: master
         run: |
+          git config --global user.email "actions@gihub.com"
+          git config --global user.name "gh-actions"
           npm install
-          npm run publish-gh-pages
+          npx docusaurus deploy
