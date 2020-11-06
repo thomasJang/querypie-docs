@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/querypie-docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'CHEQUER Global Inc.', // Usually your GitHub org/user name.
-  projectName: 'QueryPie Document', // Usually your repo name.
+  organizationName: 'chequer-io', // Usually your GitHub org/user name.
+  projectName: 'querypie-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
